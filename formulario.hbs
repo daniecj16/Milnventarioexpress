@@ -1,0 +1,8 @@
+<h2>Nuevo Producto</h2>
+<form method="POST" action="/productos" enctype="multipart/form-data">
+  <input type="text" name="nombre" placeholder="Nombre" required>
+  <input type="number" name="precio" placeholder="Precio" required>
+  <textarea name="descripcion" placeholder="Descripción" required></textarea>
+  <input type="file" name="imagen">
+  <button type="submit">Guardar</button>
+</form>
